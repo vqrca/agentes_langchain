@@ -69,16 +69,6 @@ if uploaded_file:
 
         {tools}
 
-        **Importante:**  
-        Use a ferramenta `ferramenta_python` quando a pergunta do usuário for direta e objetiva sobre o conteúdo do DataFrame `df`.  
-        Exemplos ideais incluem:  
-        - "Qual é a média da coluna X?"  
-        - "Qual a correlação entre A e B?"  
-        - "Mostre os valores únicos da coluna Y"  
-
-        **Evite** utilizar a `ferramenta_python` para análises completas ou para geração de gráficos.  
-        Nessas situações, utilize as ferramentas apropriadas.
-
         Use o seguinte formato:
 
         Question: a pergunta de entrada que você deve responder  
