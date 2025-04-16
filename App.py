@@ -29,11 +29,12 @@ Ideal para analistas, cientistas de dados e equipes que buscam agilidade e insig
 """)
 
 # Upload do CSV
+# Upload do CSV
 st.markdown("### 📁 Faça upload do seu arquivo CSV")
-uploaded_file = st.file_uploader("", type="csv")
+arquivo_carregado = st.file_uploader("Selecione um arquivo CSV", type="csv", label_visibility="collapsed")
 
-if uploaded_file:
-    df = pd.read_csv(uploaded_file)
+if arquivo_carregado:
+    df = pd.read_csv(arquivo_carregado)
     st.success("Arquivo carregado com sucesso!")
     st.markdown("### 🔍 Primeiras linhas do DataFrame")
     st.dataframe(df.head())
