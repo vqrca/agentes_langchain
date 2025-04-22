@@ -77,7 +77,7 @@ if arquivo_carregado:
         Action: a ação a ser tomada, deve ser uma das [{tool_names}]  
         Action Input: a entrada para a ação  
         Observation: o resultado da ação  
-        ... (este Pensamento/Ação/Entrada de Ação/Observação pode se repetir N vezes)  
+        ... (este Thought/Action/Action Input/Observation pode se repetir N vezes)
         Thought: Agora eu sei a resposta final  
         Final Answer: a resposta final para a pergunta de entrada original.
         Quando usar a ferramenta_python: formate sua resposta final de forma clara, em lista, com valores separados por vírgulas e duas casas decimais sempre que apresentar números.
